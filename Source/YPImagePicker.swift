@@ -154,7 +154,7 @@ override open func viewDidLoad() {
     }
     
     private func setupLoadingView() {
-        view.sv(
+        view.subviews(
             loadingView
         )
         loadingView.fillContainer()
